@@ -21,7 +21,7 @@ namespace DataBaseUpdate
             SqlConnection con; 
             using (con = new SqlConnection("server=" + serverName + ";uid=" + userid + ";pwd=" + password + ";database=" + database + ""))
             {
-                SqlCommand cmd = new SqlCommand("select name from sys.database",con);
+                SqlCommand cmd = new SqlCommand("select name from sys.databases",con);
                 con.Open();
                 using (SqlDataReader dr = cmd.ExecuteReader())
                 {
