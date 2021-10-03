@@ -7,9 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <title>Home</title>
     <link href="BootstrapFiles/CSS/bootstrap.min.css" rel="stylesheet" />
-    <script src="jquery/jquery-3.6.0.js"></script>
-    <script src="jquery/jquery-3.6.0.min.js"></script>
-    <script src="Scripts/AjaxMethods.js"></script>
+   
   
 </head>
 <body>
@@ -32,16 +30,21 @@
                 </div>
                 <br />
                    <div id="divSubmit">
-                    <input type="button" value="Submit" id="btnSubmit" onclick="getDatabaseList()"/>
+                    <input type="button" value="Submit" id="btnSubmit"/>
                 </div>
                 <br />
                 
             </div>
             <div runat="server" id="divdrp">
-                <asp:DropDownList ID="drpDataBaseList1" runat="server"></asp:DropDownList>
+                <select id="drpDataBaseList1">
+                    <option value="0">--Select Database--</option>
+                </select>
+                <%--<asp:DropDownList ID="drpDataBaseList1" runat="server"></asp:DropDownList>--%>
             </div>
         </div>
     </form>
-   
+    <script src="jquery/jquery-3.6.0.js"></script>
+    <script src="jquery/jquery-3.6.0.min.js"></script>
+    <script src="Scripts/AjaxMethods.js"></script>
 </body>
 </html>

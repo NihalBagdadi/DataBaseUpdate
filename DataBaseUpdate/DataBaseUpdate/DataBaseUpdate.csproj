@@ -105,6 +105,7 @@
     <Compile Include="DataBaseList.aspx.designer.cs">
       <DependentUpon>DataBaseList.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Modals\DatabaseName.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
