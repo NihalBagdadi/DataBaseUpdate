@@ -13,8 +13,11 @@ $("#btnSubmit").click(function () {
                 $.each(res.d, function (data, value) {
                     id;
                     $("#drpDataBaseList1").append($("<option></option>").val(value.dbid).html(value.DbName))
+                   
                 });
+                $("#divdrp").css("display","block")
                 alert("Successfull")
+           
             },
             error: function (d) {
             }
