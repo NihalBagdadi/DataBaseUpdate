@@ -40,14 +40,44 @@
 
             </div>
         
-            <div id="divdrp" style="display:none">
-            <div  >
-                <select id="drpDataBaseList1">
-                    <option value="0">--Select Database--</option>
+            <div id="divdrp1"  style="display:none" class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-body">
+                       <div   class="input-group">
+                <select id="drpDataBaseList1" class="custom-select"  onchange="totalTabels('drpDataBaseList1','lbltotalTables1')">
+                    <option value="0">Choose Database</option>
                 </select>
+             
                 <%--<asp:DropDownList ID="drpDataBaseList1" runat="server"></asp:DropDownList>--%>
             </div>
+                        <div>
+                            Total Tables
+                            <h6 id="lbltotalTables1"></h6>
+                        </div>
+                        </div>
                 </div>
+         
+                </div>
+
+              <div id="divdrp2"  style="display:none" class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-body">
+                       <div   class="input-group">
+                <select id="drpDataBaseList2" class="custom-select"  onchange="totalTabels('drpDataBaseList2','lbltotalTables2')">
+                    <option value="0">Choose Database</option>
+                </select>
+             
+                <%--<asp:DropDownList ID="drpDataBaseList1" runat="server"></asp:DropDownList>--%>
+            </div>
+                        <div>
+                            Total Tables
+                            <h6 id="lbltotalTables2"></h6>
+                        </div>
+                        </div>
+                </div>
+         
+                </div>
+
         </div>
     </form>
     <script src="jquery/jquery-3.6.0.js"></script>

@@ -49,15 +49,34 @@ namespace DataBaseUpdate
       
             return lst;
         }
-        private void DrpDatabaseList1(List<string> lst)
+        [WebMethod]
+        public static string getColumnsList(string databaseName, string sn, string uid, string ps)
         {
-           // DropDownList drp = new DropDownList();
-            for (int i = 0; i < lst.Count; i++)
+            int dbid = 1;
+            string serverName = sn;
+            string userid = uid;
+            string password = ps;
+            string totalTables = "";
+            List<DatabaseName> lst = new List<DatabaseName>();
+
+            SqlConnection con;
+            using (con = new SqlConnection("server=" + serverName + ";uid=" + userid + ";pwd=" + password + ";database=" + databaseName + ""))
             {
-             //   drpDataBaseList1.Items.Add(i.ToString());
+                SqlCommand cmd = new SqlCommand("select  count(distinct TABLE_NAME) as [TotalTable] from INFORMATION_SCHEMA.COLUMNS where TABLE_CATALOG='"+databaseName+"'", con);
+                con.Open();
+                using (SqlDataReader dr = cmd.ExecuteReader())
+                {
+                    while (dr.Read())
+                    {
+                       totalTables = dr[0].ToString() ;
+                        dbid++;
+                        // lst.Items.Add(dr[0].ToString());
+                    }
+                }
+
             }
-           
-          
+
+            return totalTables;
         }
     }
     
