@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="BootstrapFiles\CSS\bootstrap.min.css" />
     <Content Include="BootstrapFiles\JS\bootstrap.bundle.min.js" />
+    <Content Include="DatabaseComparison.html" />
     <Content Include="DataBaseList.aspx" />
     <Content Include="DownloadedBoot\css\bootstrap-grid.css" />
     <Content Include="DownloadedBoot\css\bootstrap-grid.min.css" />
@@ -105,6 +106,9 @@
     <Compile Include="DataBaseList.aspx.designer.cs">
       <DependentUpon>DataBaseList.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Handler1.ashx.cs">
+      <DependentUpon>Handler1.ashx</DependentUpon>
+    </Compile>
     <Compile Include="Modals\DatabaseName.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -132,6 +136,7 @@
     <Content Include="DownloadedBoot\js\bootstrap.js.map" />
     <Content Include="DownloadedBoot\js\bootstrap.min.js.map" />
     <Content Include="jquery\jquery-3.6.0.min.map" />
+    <Content Include="Handler1.ashx" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

@@ -52,8 +52,8 @@ F:\MyProjects\Git\DataBaseUpdate\DataBaseUpdate\DataBaseUpdate\DataBaseUpdate\bi
 F:\MyProjects\Git\DataBaseUpdate\DataBaseUpdate\DataBaseUpdate\DataBaseUpdate\bin\roslyn\VBCSCompiler.exe.config
 F:\MyProjects\Git\DataBaseUpdate\DataBaseUpdate\DataBaseUpdate\DataBaseUpdate\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 F:\MyProjects\Git\DataBaseUpdate\DataBaseUpdate\DataBaseUpdate\DataBaseUpdate\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\MyProjects\Git\DataBaseUpdate\DataBaseUpdate\DataBaseUpdate\DataBaseUpdate\obj\Debug\DataBaseUpdate.csproj.AssemblyReference.cache
 F:\MyProjects\Git\DataBaseUpdate\DataBaseUpdate\DataBaseUpdate\DataBaseUpdate\obj\Debug\DataBaseUpdate.csproj.CoreCompileInputs.cache
 F:\MyProjects\Git\DataBaseUpdate\DataBaseUpdate\DataBaseUpdate\DataBaseUpdate\obj\Debug\DataBaseUpdate.csproj.CopyComplete
 F:\MyProjects\Git\DataBaseUpdate\DataBaseUpdate\DataBaseUpdate\DataBaseUpdate\obj\Debug\DataBaseUpdate.dll
 F:\MyProjects\Git\DataBaseUpdate\DataBaseUpdate\DataBaseUpdate\DataBaseUpdate\obj\Debug\DataBaseUpdate.pdb
-F:\MyProjects\Git\DataBaseUpdate\DataBaseUpdate\DataBaseUpdate\DataBaseUpdate\obj\Debug\DataBaseUpdate.csproj.AssemblyReference.cache
